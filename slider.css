@@ -34,7 +34,7 @@
     opacity: 0.6;
 }
 .switch:hover {
-    background: rgba(184, 184, 184, 0.6) !important;
+    background: rgba(184, 184, 184, 0.6);
 }
 button {
     position: absolute;
@@ -49,4 +49,19 @@ button {
 }
 .right {
     right:5px;
+}
+.pause {
+    width: 25px;
+    height: 25px;
+    top: 100%;
+    left: 50%;
+    background: url(icons/pause.png);
+    background-size: contain;
+    opacity: 0.6;
+}
+aside {
+    display: none;
+}
+aside * {
+    display: none;
 }

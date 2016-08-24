@@ -8,13 +8,21 @@
 
 <script src="slider.js" defer></script>
 
-<body>
+<img>
 <div id="main">
-    <button class="left" onclick="slider.left();"><</button>
+    <button class="left"><</button>
     <div id="scr">
         <div id="switchContainer"></div>
     </div>
-    <button class="right" onclick="slider.right();">></div>
+    <button class="right">></button>
+    <button class="pause"></button>
 </div>
+<aside id="sliderconfig">
+    <img src="images/ch01.jpg images/ch02.jpg images/ch03.jpg images/ch04.jpg images/ch05.jpg">
+    <div id="interval">3</div>
+    <div class="switch">
+        Костыль, чтобы обратиться к стилям класса .switch до генерации соответствующих элементов
+    </div>
+</aside>
 </body>
 </html>
